@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Novais</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="img-logo" src="./images/logo.png" alt="Logo">
+            <ul class="menu-list">
+                <li><a class="links bold" href="#home">Home</a></li>
+                <li><a class="links" href="#sobre">Sobre</a></li>
+                <li><a class="links" href="#loc">Localização</a></li>
+            </ul>
+            <ul>
+                <span class="material-symbols-outlined">menu</span>
+                <span class="material-symbols-outlined">search</span>
+            </ul>
+        </nav>
+        <div class="main_msg" id="home">
+            <h1 class="main_title">
+                A melhor <span>pizzaria</span> <br>
+                de São Paulo
+            </h1>
+            <p class="text-md">
+                Na pizzaria Novais, cada pedaço é uma
+                celebração de sabor autêntico e
+                aconchego.
+            </p>
+            <button><a href="#menu_pizzas" class="links bold" style="color: var(--cor-branca); margin-left: 0;">Veja nosso menu</a></button>
+
+        </div>
+        <img src="./images/pizza1.png" alt="">
+        <div class="div_oval"></div>
+    </header>
+    <section class="cards" id="menu_pizzas">
+        <div class="card card_verde_menta">
+            <img class="img_pizza" src="./images/pizza.png" alt="Pizzaria">
+            <p class="text-lg">Calabresa</p>
+            <p class="text-md">R$ 50,00</p>
+        </div>
+        <div class="card card_rosa_pastel">
+            <img class="img_pizza" src="./images/pizza3.png" alt="Pizzaria">
+            <p class="text-lg">Mussarela</p>
+            <p class="text-md">R$ 60,00</p>
+        </div>
+        <div class="card card_pessego">
+            <img class="img_pizza" src="./images/pizza2.png" alt="Pizzaria">
+            <p class="text-lg">Russa</p>
+            <p class="text-md">R$ 50,00</p>
+        </div>
+    </section>
+    <section id="sobre">
+        <div>
+            <h1 class="main_title">Sobre a Pizzaria Novais</h1>
+            <h1 class="text-lg">150 anos  da Imigração Italiana no Brasil.</h1>
+            <p class="text-md">Criada em 1958 na Itália, a Pizzaria Novais é a maior rede de pizzaria do mundo com presença em 100 países, com mais de 16 mil restaurantes distribuídos pelos cinco continentes. A marca emprega mais de 250 mil funcionários globalmente. Por dia, são mais de 4 milhões de consumidores atendidos em unidades Pizzaria Novais ao redor do mundo. Presente no Brasil desde 1989, atualmente a Pizzaria Novais conta com mais de 230 restaurantes distribuídos em 24 estados e mais de 60 cidades. No país, a Pizzaria Novais faz parte da IMC - International Meal Company - empresa de capital aberto também detentora das marcas KFC, Frango Assado, Viena, Olive Garden, entre outras.</p>
+            <h1 class="text-lg">Gazie a tutti!</h1>
+        </div>
+    </section>
+    <div class="line"></div>
+    <section id="loc">
+        <h1 class="main_title">Local e Horário</h1>
+        <div class="unidades">
+            <div class="mooca">
+                <h1 class="text-lg">MOOCA</h1>
+                <p class="text-md">Rua da Mooca, 1.747 - São Paulo, SP <br> CEP 03103-030 <br> contato@pizzarianovais.com.br <br> Tel: (11) 2601-4653</p>
+                <h1 class="text-lg">HORÁRIO DE FUNCIONAMENTO</h1>
+                <p class="text-md">Segunda: 18:00 - 22:00 <br> Terça à Domingo: 18:00 - 23:00</p>
+            </div>
+            <div class="pinheiros">
+                <h1 class="text-lg">PINHEIROS</h1>
+                <p class="text-md">Rua João Moura, 529 - São Paulo, SP <br> CEP 05412-001 <br> contato@pizzarianovais.com.br <br> Tel: (11) 3064-0060</p>
+                <h1 class="text-lg">HORÁRIO DE FUNCIONAMENTO</h1>
+                <p class="text-md">Segunda: 18:00 - 22:00 <br> Terça à Domingo: 18:00 - 23:00</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="social-links">
+            <h1>SIGA NOSSAS REDES</h1>
+            <a href="https://instagram.com" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://youtube.com" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+        </div>
+        <form action="">
+            <h1>Quer receber as novidades da Pizzaria Novais?</h1>
+            <label for="name">Nome*</label><input type="text">
+            <label for="email">Email*</label><input type="email">
+            <label for="bday">Data de Aniversário*</label><input type="date">
+            <input type="submit">
+        </form>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

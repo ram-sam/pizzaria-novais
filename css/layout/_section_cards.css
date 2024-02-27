@@ -1,0 +1,23 @@
+.cards {
+    display: flex;
+    gap: 96px;
+    margin-left: 2px;
+    justify-content: center;
+    background-color: rgba(235, 235, 235, 0.9);
+    padding: 4%;
+}
+.img_pizza {
+    width: 150px;
+    height: auto;
+}
+@media (max-width: 600px){
+    .cards {
+        flex-direction: column;
+    }
+}
+
+.card {
+    background-color: var(--cor-branca);
+    border-radius: 15px;
+    padding: 2%;
+}

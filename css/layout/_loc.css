@@ -1,0 +1,25 @@
+.line {
+    background-color: #da582f;
+    height: 1.3vh;
+    width: 100%;
+    margin-top: -50px;
+    
+}
+
+#loc {
+    padding: 20vh;
+    text-align: center;
+    justify-content: center;
+    margin-top: -90px;
+}
+
+.unidades {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#loc h1 {
+    display: block;
+    margin: 1%;
+}
+

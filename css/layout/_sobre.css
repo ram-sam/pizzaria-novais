@@ -1,0 +1,11 @@
+#sobre {
+    padding: 20vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: -80px;
+}
+
+#sobre h1 {
+    margin: 1%;
+}
